@@ -1,0 +1,16 @@
+
+alias mc='mc -S gotar'
+alias grep='grep -i --color'
+alias ls='ls -1 --classify'
+alias wget='wget -t 10'
+alias sed='sed -E'
+alias gzip='pigz -p 2'
+alias ptar='tar --use-compress-program=pigz'
+
+export HISTCONTROL="ignoreboth":$HISTCONTROL
+export HISTTIMEFORMAT='%Y-%m-%d %H:%M:%S '
+
+export TERM=xterm-256color
+
+shopt -s nocaseglob
+shopt -s cdspell
